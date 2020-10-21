@@ -1,0 +1,6 @@
+img{
+  border: 4px inset black;
+}
+img{
+  max-width: 300px;
+}
