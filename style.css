@@ -4,3 +4,18 @@ img{
 img{
   max-width: 300px;
 }
+a:link{
+  color: rgb(230, 2, 2)
+}
+a:visited{
+  color: rgb(78, 201, 6)
+}
+a:hover{
+  color: rgb(10, 248, 248)
+}
+a.current{
+  color: rgb(117, 116, 116)
+}
+a:active{
+  color: blue
+}
