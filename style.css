@@ -5,17 +5,28 @@ img{
   max-width: 300px;
 }
 a:link{
-  color: rgb(230, 2, 2)
+  color: rgb(233, 7, 7);
+  text-decoration: none;
+  border: 2px solid rgb(214, 176, 127);
+  padding: 5px;
+  background-color: rgb(219, 227, 235);
 }
 a:visited{
-  color: rgb(78, 201, 6)
+  color: rgb(62, 165, 2);
 }
 a:hover{
-  color: rgb(10, 248, 248)
+  color: rgb(33, 11, 109);
+  text-decoration: underline;
+  background-color: rgb(182, 191, 201);
+  box-shadow: 0px 0px 2px 2px  rgba(103, 146, 187, 0.507),
+  0px 0px 4px 4px  rgba(1, 9, 17, 0.507);
 }
 a.current{
   color: rgb(117, 116, 116)
 }
 a:active{
-  color: blue
+  color: blue;
+}
+li{
+  margin-bottom: 20px;
 }
